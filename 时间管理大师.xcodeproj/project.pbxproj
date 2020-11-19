@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041274712566565F00828C8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041274702566565F00828C8E /* AppDelegate.m */; };
+		041274742566565F00828C8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041274732566565F00828C8E /* SceneDelegate.m */; };
+		041274772566565F00828C8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041274762566565F00828C8E /* ViewController.m */; };
+		0412747A2566565F00828C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041274782566565F00828C8E /* Main.storyboard */; };
+		0412747C2566566100828C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0412747B2566566100828C8E /* Assets.xcassets */; };
+		0412747F2566566100828C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412747D2566566100828C8E /* LaunchScreen.storyboard */; };
+		041274822566566100828C8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041274812566566100828C8E /* main.m */; };
+		0412748C2566566200828C8E /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412748B2566566200828C8E /* ______Tests.m */; };
+		041274972566566200828C8E /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041274962566566200828C8E /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041274882566566200828C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041274642566565F00828C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0412746B2566565F00828C8E;
+			remoteInfo = "时间管理大师";
+		};
+		041274932566566200828C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041274642566565F00828C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0412746B2566565F00828C8E;
+			remoteInfo = "时间管理大师";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412746C2566565F00828C8E /* 时间管理大师.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时间管理大师.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0412746F2566565F00828C8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041274702566565F00828C8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041274722566565F00828C8E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		041274732566565F00828C8E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		041274752566565F00828C8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041274762566565F00828C8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041274792566565F00828C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0412747B2566566100828C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0412747E2566566100828C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041274802566566100828C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041274812566566100828C8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041274872566566200828C8E /* 时间管理大师Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "时间管理大师Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0412748B2566566200828C8E /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		0412748D2566566200828C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041274922566566200828C8E /* 时间管理大师UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "时间管理大师UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041274962566566200828C8E /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		041274982566566200828C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041274692566565F00828C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041274842566566200828C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412748F2566566200828C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041274632566565F00828C8E = {
+			isa = PBXGroup;
+			children = (
+				0412746E2566565F00828C8E /* 时间管理大师 */,
+				0412748A2566566200828C8E /* 时间管理大师Tests */,
+				041274952566566200828C8E /* 时间管理大师UITests */,
+				0412746D2566565F00828C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0412746D2566565F00828C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0412746C2566565F00828C8E /* 时间管理大师.app */,
+				041274872566566200828C8E /* 时间管理大师Tests.xctest */,
+				041274922566566200828C8E /* 时间管理大师UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0412746E2566565F00828C8E /* 时间管理大师 */ = {
+			isa = PBXGroup;
+			children = (
+				0412746F2566565F00828C8E /* AppDelegate.h */,
+				041274702566565F00828C8E /* AppDelegate.m */,
+				041274722566565F00828C8E /* SceneDelegate.h */,
+				041274732566565F00828C8E /* SceneDelegate.m */,
+				041274752566565F00828C8E /* ViewController.h */,
+				041274762566565F00828C8E /* ViewController.m */,
+				041274782566565F00828C8E /* Main.storyboard */,
+				0412747B2566566100828C8E /* Assets.xcassets */,
+				0412747D2566566100828C8E /* LaunchScreen.storyboard */,
+				041274802566566100828C8E /* Info.plist */,
+				041274812566566100828C8E /* main.m */,
+			);
+			path = "时间管理大师";
+			sourceTree = "<group>";
+		};
+		0412748A2566566200828C8E /* 时间管理大师Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0412748B2566566200828C8E /* ______Tests.m */,
+				0412748D2566566200828C8E /* Info.plist */,
+			);
+			path = "时间管理大师Tests";
+			sourceTree = "<group>";
+		};
+		041274952566566200828C8E /* 时间管理大师UITests */ = {
+			isa = PBXGroup;
+			children = (
+				041274962566566200828C8E /* ______UITests.m */,
+				041274982566566200828C8E /* Info.plist */,
+			);
+			path = "时间管理大师UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0412746B2566565F00828C8E /* 时间管理大师 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0412749B2566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师" */;
+			buildPhases = (
+				041274682566565F00828C8E /* Sources */,
+				041274692566565F00828C8E /* Frameworks */,
+				0412746A2566565F00828C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时间管理大师";
+			productName = "时间管理大师";
+			productReference = 0412746C2566565F00828C8E /* 时间管理大师.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041274862566566200828C8E /* 时间管理大师Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0412749E2566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师Tests" */;
+			buildPhases = (
+				041274832566566200828C8E /* Sources */,
+				041274842566566200828C8E /* Frameworks */,
+				041274852566566200828C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041274892566566200828C8E /* PBXTargetDependency */,
+			);
+			name = "时间管理大师Tests";
+			productName = "时间管理大师Tests";
+			productReference = 041274872566566200828C8E /* 时间管理大师Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041274912566566200828C8E /* 时间管理大师UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041274A12566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师UITests" */;
+			buildPhases = (
+				0412748E2566566200828C8E /* Sources */,
+				0412748F2566566200828C8E /* Frameworks */,
+				041274902566566200828C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041274942566566200828C8E /* PBXTargetDependency */,
+			);
+			name = "时间管理大师UITests";
+			productName = "时间管理大师UITests";
+			productReference = 041274922566566200828C8E /* 时间管理大师UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041274642566565F00828C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					0412746B2566565F00828C8E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					041274862566566200828C8E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0412746B2566565F00828C8E;
+					};
+					041274912566566200828C8E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 0412746B2566565F00828C8E;
+					};
+				};
+			};
+			buildConfigurationList = 041274672566565F00828C8E /* Build configuration list for PBXProject "时间管理大师" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041274632566565F00828C8E;
+			productRefGroup = 0412746D2566565F00828C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0412746B2566565F00828C8E /* 时间管理大师 */,
+				041274862566566200828C8E /* 时间管理大师Tests */,
+				041274912566566200828C8E /* 时间管理大师UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0412746A2566565F00828C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0412747F2566566100828C8E /* LaunchScreen.storyboard in Resources */,
+				0412747C2566566100828C8E /* Assets.xcassets in Resources */,
+				0412747A2566565F00828C8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041274852566566200828C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041274902566566200828C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041274682566565F00828C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041274772566565F00828C8E /* ViewController.m in Sources */,
+				041274712566565F00828C8E /* AppDelegate.m in Sources */,
+				041274822566566100828C8E /* main.m in Sources */,
+				041274742566565F00828C8E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041274832566566200828C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0412748C2566566200828C8E /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0412748E2566566200828C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041274972566566200828C8E /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041274892566566200828C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0412746B2566565F00828C8E /* 时间管理大师 */;
+			targetProxy = 041274882566566200828C8E /* PBXContainerItemProxy */;
+		};
+		041274942566566200828C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0412746B2566565F00828C8E /* 时间管理大师 */;
+			targetProxy = 041274932566566200828C8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041274782566565F00828C8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041274792566565F00828C8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0412747D2566566100828C8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0412747E2566566100828C8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041274992566566200828C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0412749A2566566200828C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0412749C2566566200828C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0412749D2566566200828C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0412749F2566566200828C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/时间管理大师.app/时间管理大师";
+			};
+			name = Debug;
+		};
+		041274A02566566200828C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/时间管理大师.app/时间管理大师";
+			};
+			name = Release;
+		};
+		041274A22566566200828C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "时间管理大师";
+			};
+			name = Debug;
+		};
+		041274A32566566200828C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DRTF5T38NA;
+				INFOPLIST_FILE = "时间管理大师UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BaoLei.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "时间管理大师";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041274672566565F00828C8E /* Build configuration list for PBXProject "时间管理大师" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041274992566566200828C8E /* Debug */,
+				0412749A2566566200828C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0412749B2566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0412749C2566566200828C8E /* Debug */,
+				0412749D2566566200828C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0412749E2566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0412749F2566566200828C8E /* Debug */,
+				041274A02566566200828C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041274A12566566200828C8E /* Build configuration list for PBXNativeTarget "时间管理大师UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041274A22566566200828C8E /* Debug */,
+				041274A32566566200828C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041274642566565F00828C8E /* Project object */;
+}
